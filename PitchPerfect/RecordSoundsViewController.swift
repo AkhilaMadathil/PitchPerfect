@@ -69,6 +69,9 @@ class RecordSoundsViewController: UIViewController {
         stopButton.isEnabled = false
         recordLabel.text = "Tap to record"
         recordBUTTON.isEnabled = true
+        audioRecorder.stop()
+        let audioSession = AVAudioSession.sharedInstance()
+        try! audioSession.setActive(false)
     }
     
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
