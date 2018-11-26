@@ -60,6 +60,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         try! session.setCategory(AVAudioSessionCategoryPlayAndRecord, with:AVAudioSessionCategoryOptions.defaultToSpeaker)
         
         try! audioRecorder = AVAudioRecorder(url: filePath!, settings: [:])
+        audioRecorder.delegate = self
         audioRecorder.isMeteringEnabled = true
         audioRecorder.prepareToRecord()
         audioRecorder.record()
@@ -75,22 +76,16 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
 //    func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
-//        if flag {
-//            performSegue(withIdentifier: "playSegue", sender: audioRecorder.url)
-//        } else {
-//            print("recording was not completed")
-//        }
+//        <#code#>
 //    }
-    
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
         if flag {
             performSegue(withIdentifier: "playSegue", sender: audioRecorder.url)
         } else {
             print("recording was not completed")
         }
-
     }
-    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "playSegue" {
             let playSoundsVc = segue.destination as? PlaySoundsViewController
