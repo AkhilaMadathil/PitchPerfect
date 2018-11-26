@@ -21,7 +21,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pO-9R-a2y">
                                 <rect key="frame" x="147" y="123" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="recordIcon"/>
+                                <state key="normal" title="Button" image="Record-1"/>
                                 <connections>
                                     <action selector="recordButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hkq-Wy-3Rf"/>
                                 </connections>
@@ -36,7 +36,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Am-Aj-Exm">
                                 <rect key="frame" x="157" y="343" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="stop"/>
+                                <state key="normal" title="Button" image="Stop-1"/>
                                 <connections>
                                     <action selector="stopButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HL7-bg-zcn"/>
                                 </connections>
@@ -65,42 +65,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXe-Ea-9IY">
-                                <rect key="frame" x="84" y="102" width="46" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXe-Ea-9IY">
+                                <rect key="frame" x="35" y="84" width="144" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="Slow"/>
                                 <connections>
                                     <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="oyL-7n-GgV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vby-OO-bzA">
-                                <rect key="frame" x="229" y="443" width="46" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vby-OO-bzA">
+                                <rect key="frame" x="180" y="425" width="144" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="Reverb"/>
                                 <connections>
                                     <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="ujL-WX-em0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXa-2q-Xbp">
-                                <rect key="frame" x="229" y="266" width="46" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXa-2q-Xbp">
+                                <rect key="frame" x="180" y="248" width="144" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="LowPitch"/>
                                 <connections>
                                     <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="hOS-5Z-Gpq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tkn-XS-yqu">
-                                <rect key="frame" x="84" y="443" width="46" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tkn-XS-yqu">
+                                <rect key="frame" x="35" y="425" width="144" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="Echo"/>
                                 <connections>
                                     <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="Ccp-UB-t4e"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXx-d2-n1b">
-                                <rect key="frame" x="229" y="102" width="46" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXx-d2-n1b">
+                                <rect key="frame" x="180" y="84" width="144" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="HighPitch"/>
                                 <connections>
                                     <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="zRt-3e-SWY"/>
                                 </connections>
@@ -113,10 +113,10 @@
                                     <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="p0v-LV-sd1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phy-hI-s61">
-                                <rect key="frame" x="84" y="266" width="46" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phy-hI-s61">
+                                <rect key="frame" x="35" y="248" width="144" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" image="Fast"/>
                                 <connections>
                                     <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="n59-kE-dva"/>
                                 </connections>
@@ -159,7 +159,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="recordIcon" width="876" height="866"/>
-        <image name="stop" width="850" height="852"/>
+        <image name="Echo" width="90" height="90"/>
+        <image name="Fast" width="90" height="90"/>
+        <image name="HighPitch" width="90" height="90"/>
+        <image name="LowPitch" width="90" height="90"/>
+        <image name="Record-1" width="155" height="155"/>
+        <image name="Reverb" width="90" height="90"/>
+        <image name="Slow" width="90" height="90"/>
+        <image name="Stop-1" width="155" height="155"/>
     </resources>
 </document>
