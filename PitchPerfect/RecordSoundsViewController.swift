@@ -26,13 +26,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         stopButton.isEnabled = false
     }
     
-//
-//    override func didReceiveMemoryWarning() {
-//        super.didReceiveMemoryWarning()
-//        // Dispose of any resources that can be recreated.
-//    }
-    
-
     /*
     // MARK: - Navigation
 
@@ -75,9 +68,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         try! audioSession.setActive(false)
     }
     
-//    func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
-//        <#code#>
-//    }
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
         if flag {
             performSegue(withIdentifier: "playSegue", sender: audioRecorder.url)
