@@ -50,7 +50,7 @@
                         <outlet property="recordBUTTON" destination="8pO-9R-a2y" id="GCY-Wa-ivz"/>
                         <outlet property="recordLabel" destination="3vQ-zl-SOJ" id="LyC-r4-wTL"/>
                         <outlet property="stopButton" destination="5Am-Aj-Exm" id="I9x-mK-b1y"/>
-                        <segue destination="wgv-E5-ZkM" kind="show" identifier="playSegue" id="Xdl-qZ-vwe"/>
+                        <segue destination="wgv-E5-ZkM" kind="show" identifier="playSegue" id="2wE-bL-L17"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -69,36 +69,57 @@
                                 <rect key="frame" x="84" y="102" width="46" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="oyL-7n-GgV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vby-OO-bzA">
                                 <rect key="frame" x="229" y="443" width="46" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="ujL-WX-em0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXa-2q-Xbp">
                                 <rect key="frame" x="229" y="266" width="46" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="hOS-5Z-Gpq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tkn-XS-yqu">
                                 <rect key="frame" x="84" y="443" width="46" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="Ccp-UB-t4e"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXx-d2-n1b">
                                 <rect key="frame" x="229" y="102" width="46" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="zRt-3e-SWY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVP-Ty-P9G">
                                 <rect key="frame" x="156" y="592" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="p0v-LV-sd1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phy-hI-s61">
                                 <rect key="frame" x="84" y="266" width="46" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="playSoundForButtonWith_sender:" destination="wgv-E5-ZkM" eventType="touchUpInside" id="n59-kE-dva"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -116,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="obM-vC-2dw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047" y="133"/>
+            <point key="canvasLocation" x="1138" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vj5-do-W5n">
