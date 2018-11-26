@@ -71,22 +71,17 @@
                                 <state key="normal" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vby-OO-bzA">
-                                <rect key="frame" x="229" y="512" width="46" height="54"/>
+                                <rect key="frame" x="229" y="443" width="46" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXa-2q-Xbp">
-                                <rect key="frame" x="229" y="306" width="46" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phy-hI-s61">
-                                <rect key="frame" x="84" y="306" width="46" height="54"/>
+                                <rect key="frame" x="229" y="266" width="46" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tkn-XS-yqu">
-                                <rect key="frame" x="84" y="512" width="46" height="54"/>
+                                <rect key="frame" x="84" y="443" width="46" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
@@ -95,10 +90,29 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVP-Ty-P9G">
+                                <rect key="frame" x="156" y="592" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phy-hI-s61">
+                                <rect key="frame" x="84" y="266" width="46" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9pG-Ek-TvN"/>
                     </view>
+                    <connections>
+                        <outlet property="chipmunkButton" destination="dXx-d2-n1b" id="ju4-cJ-APd"/>
+                        <outlet property="echoButton" destination="Tkn-XS-yqu" id="dpj-N3-axa"/>
+                        <outlet property="rabbitButton" destination="phy-hI-s61" id="5Er-PX-nxT"/>
+                        <outlet property="reverbButton" destination="vby-OO-bzA" id="xim-IZ-Csy"/>
+                        <outlet property="snailButton" destination="uXe-Ea-9IY" id="9cR-5o-hzh"/>
+                        <outlet property="stopButton" destination="MVP-Ty-P9G" id="Cjw-QZ-K6k"/>
+                        <outlet property="vaderButton" destination="gXa-2q-Xbp" id="dIp-BH-2cF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="obM-vC-2dw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
