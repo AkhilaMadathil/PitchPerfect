@@ -29,10 +29,20 @@ class PlaySoundsViewController: UIViewController {
     enum buttonType: Int { case slow = 0, fast, chipmunk, vader, echo, reverb }
     
     //MARK: IBActions
-    @IBAction func playSoundForButton(_sender: UIButton) {
+    @IBAction func playSoundForButton(_ sender: UIButton) {
         switch buttonType(rawValue: sender.tag)! {
         case .slow :
-            print("play sound button pressed")
+            playSound(rate: 0.5)
+        case .fast :
+            playSound(rate: 1.5)
+        case .chipmunk :
+            playSound(pitch: 1000)
+        case .vader :
+            playSound(pitch: 1000)
+        case .echo :
+            playSound(echo: true)
+        case .reverb:
+            playSound(reverb: true)
         default:
             print("play sound button pressed")
         }
