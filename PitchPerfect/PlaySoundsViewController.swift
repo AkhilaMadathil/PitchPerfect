@@ -26,8 +26,16 @@ class PlaySoundsViewController: UIViewController {
     var audioPlayerNode: AVAudioPlayerNode!
     var stopTimer: Timer!
     
+    enum buttonType: Int { case slow = 0, fast, chipmunk, vader, echo, reverb }
+    
     //MARK: IBActions
-    @IBAction func playSoundForButton(_sender: AnyObject) {
+    @IBAction func playSoundForButton(_sender: UIButton) {
+        switch buttonType(rawValue: sender.tag)! {
+        case .slow :
+            print("play sound button pressed")
+        default:
+            print("play sound button pressed")
+        }
         print("play sound button pressed")
     }
     
@@ -37,10 +45,16 @@ class PlaySoundsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupAudio()
         // Do any additional setup after loading the view.
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        configureUI(.notPlaying)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
