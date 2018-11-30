@@ -43,10 +43,7 @@ class PlaySoundsViewController: UIViewController {
             playSound(echo: true)
         case .reverb:
             playSound(reverb: true)
-        default:
-            print("play sound button pressed")
         }
-        print("play sound button pressed")
     }
     
     @IBAction func stopButtonPressed(_sender: AnyObject) {
